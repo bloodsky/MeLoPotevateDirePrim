@@ -1,0 +1,112 @@
+Sat Sep 12 11:38:17 2015    cProfile.txt
+
+         11259757 function calls in 1275.796 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+   982279  667.820    0.001  667.820    0.001 {method 'index' of 'list' objects}
+       13  512.716   39.440  512.716   39.440 {built-in method call}
+        1   58.857   58.857   78.942   78.942 New_Arc_Creator.py:10(max_cc)
+        1   11.971   11.971 1275.796 1275.796 {built-in method mainloop}
+  1064532    5.439    0.000    6.338    0.000 DoubleLinkedList.py:10(addAsLast)
+        1    4.054    4.054  678.517  678.517 Algoritmo_Prim.py:49(prim)
+    75606    2.279    0.000    4.700    0.000 Binary.py:35(moveDown)
+  1087529    1.810    0.000    1.810    0.000 Binary.py:15(minSon)
+   153200    1.240    0.000    1.316    0.000 Graph_AdjacencyList.py:57(insertNode)
+    75606    1.139    0.000    1.220    0.000 Binary.py:51(insert)
+  1575376    1.018    0.000    1.018    0.000 Binary.py:22(swap)
+        1    0.987    0.987    4.972    4.972 File_Setting_Up.py:7(PrendiDaFile)
+        1    0.820    0.820    6.244    6.244 New_Arc_Creator.py:47(BuildGraph)
+     1989    0.794    0.000    1.071    0.001 Graph_AdjacencyList.py:119(simpleSearch)
+   794010    0.729    0.000    7.068    0.000 Graph_AdjacencyList.py:97(insertArcW)
+   178841    0.720    0.000    1.029    0.000 Binary.py:27(moveUp)
+  1064532    0.636    0.000    0.899    0.000 DoubleLinkedList.py:4(__init__)
+   232422    0.474    0.000    0.474    0.000 LinkedList.py:54(getFirstRecord)
+      786    0.441    0.001    0.441    0.001 {method 'keys' of 'dict' objects}
+  1064532    0.263    0.000    0.263    0.000 LinkedList.py:2(__init__)
+    75606    0.189    0.000    4.986    0.000 Binary.py:61(deleteMin)
+   103235    0.181    0.000    0.238    0.000 Algoritmo_Prim.py:11(__init__)
+    75605    0.136    0.000    0.136    0.000 Algoritmo_Prim.py:37(__repr__)
+   103235    0.134    0.000    1.118    0.000 Binary.py:71(decreaseKey)
+        1    0.122    0.122  762.750  762.750 Graph_AdjacencyList.py:221(main)
+   359234    0.075    0.000    0.075    0.000 {isinstance}
+        1    0.072    0.072    0.081    0.081 random.py:277(shuffle)
+        1    0.068    0.068 1263.822 1263.822 grafica.py:148(avvio)
+    75606    0.067    0.000    0.080    0.000 Binary.py:46(findMin)
+   133447    0.064    0.000    0.064    0.000 {method 'split' of 'str' objects}
+   524671    0.062    0.000    0.062    0.000 {method 'append' of 'list' objects}
+   151213    0.060    0.000    0.060    0.000 Binary.py:41(isEmpty)
+   103235    0.057    0.000    0.057    0.000 elements.py:8(__init__)
+    75605    0.042    0.000    0.042    0.000 Algoritmo_Prim.py:15(__cmp__)
+   153200    0.040    0.000    0.040    0.000 elements.py:2(__init__)
+   153200    0.036    0.000    0.036    0.000 LinkedList.py:7(__init__)
+    75607    0.032    0.000    0.032    0.000 {method 'write' of 'file' objects}
+   133448    0.029    0.000    0.029    0.000 {method 'rstrip' of 'str' objects}
+    75605    0.029    0.000    0.165    0.000 Algoritmo_Prim.py:41(__str__)
+    75606    0.023    0.000    0.023    0.000 Binary.py:5(__init__)
+     2290    0.022    0.000    0.022    0.000 {round}
+   162789    0.016    0.000    0.016    0.000 {len}
+    81210    0.013    0.000    0.013    0.000 {method 'add' of 'set' objects}
+    81210    0.009    0.000    0.009    0.000 {method 'pop' of 'set' objects}
+   133444    0.008    0.000    0.008    0.000 {method 'random' of '_random.Random' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method globalsetvar}
+        2    0.000    0.000    0.000    0.000 {open}
+        1    0.000    0.000    0.000    0.000 {method 'close' of 'file' objects}
+        5    0.000    0.000    0.000    0.000 Tkinter.py:2050(_setup)
+       10    0.000    0.000    0.000    0.000 Tkinter.py:1157(_options)
+        3    0.000    0.000  512.713  170.904 tkCommonDialog.py:34(show)
+        5    0.000    0.000    0.004    0.001 Tkinter.py:2075(__init__)
+       15    0.000    0.000    0.000    0.000 Tkinter.py:106(_cnfmerge)
+        3    0.000    0.000    0.000    0.000 Tkinter.py:2093(destroy)
+        1    0.000    0.000    0.000    0.000 tkFileDialog.py:54(_fixresult)
+        3    0.000    0.000    0.000    0.000 tkCommonDialog.py:17(__init__)
+        2    0.000    0.000  500.344  250.172 tkMessageBox.py:67(_show)
+       20    0.000    0.000    0.000    0.000 {hasattr}
+        1    0.000    0.000    0.003    0.003 grafica.py:120(b)
+        1    0.000    0.000    0.000    0.000 Tkinter.py:1200(_register)
+        3    0.000    0.000    0.000    0.000 Tkinter.py:2555(__init__)
+        3    0.000    0.000 1263.825  421.275 Tkinter.py:1531(__call__)
+       11    0.000    0.000    0.000    0.000 Tkinter.py:1896(__getattr__)
+        2    0.000    0.000    0.000    0.000 {built-in method globalgetvar}
+        6    0.000    0.000    0.000    0.000 {_tkinter._flatten}
+        2    0.000    0.000    0.000    0.000 Tkinter.py:266(set)
+       12    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 Tkinter.py:338(get)
+        1    0.000    0.000   12.370   12.370 tkFileDialog.py:127(asksaveasfilename)
+        2    0.000    0.000  500.344  250.172 tkMessageBox.py:81(showinfo)
+        1    0.000    0.000    0.000    0.000 posixpath.py:82(split)
+        1    0.000    0.000    0.003    0.003 Tkinter.py:2141(__init__)
+        1    0.000    0.000    0.003    0.003 grafica.py:77(<lambda>)
+        3    0.000    0.000    0.000    0.000 Tkinter.py:432(destroy)
+       13    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method createcommand}
+       11    0.000    0.000    0.000    0.000 {getattr}
+        1    0.000    0.000   12.370   12.370 grafica.py:134(aaskopenfile)
+        4    0.000    0.000    0.000    0.000 {time.time}
+        1    0.000    0.000    0.000    0.000 Tkinter.py:1961(place_configure)
+        1    0.000    0.000    0.000    0.000 Tkinter.py:1922(pack_configure)
+        1    0.000    0.000    0.000    0.000 Tkinter.py:2573(__init__)
+        1    0.000    0.000    0.000    0.000 Tkinter.py:1126(quit)
+        1    0.000    0.000 1263.822 1263.822 grafica.py:128(<lambda>)
+        1    0.000    0.000    0.000    0.000 grafica.py:58(<lambda>)
+        1    0.000    0.000    0.000    0.000 grafica.py:116(a)
+        1    0.000    0.000    0.000    0.000 tkFileDialog.py:47(_fixoptions)
+        6    0.000    0.000    0.000    0.000 {repr}
+        1    0.000    0.000 1275.796 1275.796 Tkinter.py:1123(mainloop)
+        1    0.000    0.000 1275.796 1275.796 <string>:1(<module>)
+        3    0.000    0.000    0.000    0.000 {method 'values' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 Binary.py:11(__init__)
+        1    0.000    0.000    0.000    0.000 Tkinter.py:1526(__init__)
+        1    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+        6    0.000    0.000    0.000    0.000 {id}
+        3    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 tkCommonDialog.py:31(_fixresult)
+        1    0.000    0.000    0.000    0.000 grafica.py:131(close)
+        1    0.000    0.000    0.000    0.000 {built-in method quit}
+        1    0.000    0.000    0.000    0.000 Tkinter.py:1340(__str__)
+        2    0.000    0.000    0.000    0.000 Graph_AdjacencyList.py:37(__init__)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        2    0.000    0.000    0.000    0.000 tkCommonDialog.py:28(_fixoptions)
+
+
